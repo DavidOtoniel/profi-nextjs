@@ -1,0 +1,42 @@
+.testimonials {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 6rem;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
+
+
+    .avatarWapper {
+        .avatar {
+            .img {
+                width: 16%;
+                border-radius: 50%;
+                border: solid 10px white;
+            }
+            // .imgDark {
+            //     width: 16%;
+            //     border-radius: 50%;
+            //     border: solid 10px #111;
+            // }
+        }
+    }
+
+    .bg {
+        background: white;
+        color: black;
+        padding: 2rem;
+        border-radius: 1rem;
+        position: relative;
+    }
+
+    .dark {
+        background: #111;
+        color: white;
+        padding: 2rem;
+        border-radius: 1rem;
+        position: relative;
+    }
+}

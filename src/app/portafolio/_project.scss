@@ -1,0 +1,21 @@
+.projects {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 2rem;
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .content {
+            padding: 0 1.6rem 1.6rem ;
+
+        .cta {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+    }
+}

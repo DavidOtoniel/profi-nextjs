@@ -1,0 +1,25 @@
+.contact {
+    .contactText {
+        display: grid;
+        place-content: center;
+        place-items: center;
+        margin-top: 4rem;
+
+
+        .iconCOntact {
+            display: flex;
+            gap: 4rem;
+
+            @media screen and (max-width: 768px) {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+
+            .icon {
+                background: white;
+                padding: 2rem;
+                border-radius: .6rem;
+            }
+        }
+    }
+}

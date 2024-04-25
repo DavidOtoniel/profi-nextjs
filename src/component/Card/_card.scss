@@ -1,0 +1,15 @@
+.cards {
+    background: white;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    border-radius: .6rem;
+    padding: 2rem .3rem;
+    margin-top: 1rem;
+    display: grid;
+
+    &:hover {
+        transform: translateY(-.5rem);
+        box-shadow: 0 .6rem .6rem rgba(0, 0, 0,  1.0);
+    }
+}

@@ -1,0 +1,90 @@
+.header {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 10%;
+    margin-top: 4rem;
+
+    @media screen and (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+
+    .headerLesft {
+        display: grid;
+        place-content: center;
+        place-items: center;
+
+        .headerBtn {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+    }
+
+    .headerRigth {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: .2rem;
+        padding: 4rem;
+        margin-bottom: 6rem;
+
+        @media screen and (max-width: 768px) {
+            padding: 2rem;
+        }
+
+        .card1 {
+            border-radius: 0 3rem;
+            overflow: hidden;
+            border: 2px solid red;
+            animation: identifier 10s linear alternate infinite;
+        }
+
+        .card2 {
+            border-radius: 3rem 0;
+            overflow: hidden;
+            border: 2px solid red;
+            animation: identifier 14s linear alternate infinite;
+        }
+
+        .card3 {
+            border-radius: 3rem 0;
+            overflow: hidden;
+            border: 2px solid red;
+            animation: identifier 19s linear alternate infinite;
+        }
+
+        .card4 {
+            border-radius: 0 3rem;
+            overflow: hidden;
+            border: 2px solid red;
+            animation: identifier 22s linear alternate infinite;
+        }
+    }
+}
+
+
+
+@keyframes identifier {
+    0% {
+        filter: saturate(1) opacity(1) blur(0);
+    }
+
+    20% {
+        filter: saturate(0) opacity(1) blur(0);
+    }
+
+    50% {
+        filter: saturate(0) opacity(0) blur(10px);
+    }
+
+    100% {
+        filter: saturate(1) opacity(1) blur(0);
+    }
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}

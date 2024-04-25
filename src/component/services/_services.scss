@@ -1,0 +1,33 @@
+.services {
+    display: grid;
+    place-content: center;
+    margin-top: 10rem;
+
+    @media screen and (max-width: 768px) {
+        margin-top: 0;
+    }
+
+    .servicesWapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+        @media screen and (max-width: 768px) {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+
+        .bg {
+            background: white;
+            padding: .2rem 2rem;
+
+
+
+            .icon {
+                color: blue;
+            }
+        }
+
+    }
+}
