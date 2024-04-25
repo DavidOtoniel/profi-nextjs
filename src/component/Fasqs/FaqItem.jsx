@@ -1,7 +1,7 @@
 "use client";
 import React, { useState, useContext } from 'react';
 import { ThemeContext } from '../../app/context/Theme'
-import '../Fasqs/_faqitem.scss';
+import '../Fasqs/_faqItem.scss';
 
 
 
