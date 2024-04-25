@@ -1,4 +1,4 @@
-import avatar1 from '../../../public/img/profi.jpg'
+import avatar1 from '../../../public/img/capa.svg'
 
 export const data = [
     {

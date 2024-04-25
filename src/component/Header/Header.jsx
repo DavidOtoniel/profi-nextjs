@@ -2,10 +2,10 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import '../Header/_header.scss';
-import avatar1 from '../../../public/img/capa1.png';
-import avatar2 from '../../../public/img/capa2.png';
-import avatar3 from '../../../public/img/capa3.png';
-import avatar4 from '../../../public/img/capa4.png';
+import avatar1 from '../../../public/img/capa1.svg';
+import avatar2 from '../../../public/img/capa2.svg';
+import avatar3 from '../../../public/img/capa3.svg';
+import avatar4 from '../../../public/img/capa4.svg';
 
 const Header = () => {
     return (

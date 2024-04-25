@@ -1,7 +1,7 @@
 import SectionHeader from '@/component/section-header/SectionHeader'
 import React from 'react';
 import Image from 'next/image';
-import avatar from '../../../public/img/profi.jpg'
+import avatar from '../../../public/img/capa.svg'
 import '../about/_about.scss';
 import  Link  from 'next/link';
 
